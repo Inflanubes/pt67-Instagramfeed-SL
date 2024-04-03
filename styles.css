@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+.header{
+    margin: auto;
+}
+.ig-body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card-post,.card-post1,.card-post2,.card-post3{
+    border: solid black 1px;
+    border-radius: 20px;
+    align-content: center;
+    width: 554px;
+    height: 684px;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    margin: 5px;
+}
+h2,p{
+    margin: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.post-footer{
+    padding: 20px;
+}
+img{
+    align-content: center;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
